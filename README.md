@@ -57,8 +57,6 @@ Select sum (Total_Sales) as totalsalesJacket from Salesdatacsv where product = '
 
 ### Results
 ---
+#### Data Visualization
 
-
-
-
-
+[Adeniyi Olufunso LITA Capstone Dataset.xlsx](https://github.com/user-attachments/files/17637877/Adeniyi.Olufunso.LITA.Capstone.Dataset.xlsx)
