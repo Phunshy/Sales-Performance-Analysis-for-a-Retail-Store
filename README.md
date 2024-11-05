@@ -20,3 +20,6 @@ In the initial data cleaning phase, I carried out the underlisted tasks:
 2. Removing duplicate values
 3. Handling missing values and narrow columns
 4. Data cleaning and formatting.
+
+### Exploratory Data Analysis
+
