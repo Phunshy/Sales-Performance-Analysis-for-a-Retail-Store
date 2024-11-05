@@ -34,6 +34,26 @@ This involved exploring the sales data to answer questions such as:
   - Units soldby product.
 
 ### Data Analysis and Quering
-SQL
+
+```SQL
+  SELECT * from [dbo].[Salesdatacsv]
+
+---------------TOTAL REVENUE BY PRODUCT---------------
+
+Select sum (Total_Sales) as totalsalesHat from Salesdatacsv where product = 'HAT'
+
+Select sum (Total_Sales) as totalsalesShoes from Salesdatacsv where product = 'SHOES'
+
+Select sum (Total_Sales) as totalsalesShirt from Salesdatacsv where product = 'SHIRT'
+
+Select sum (Total_Sales) as totalsalesGloves from Salesdatacsv where product = 'GLOVES'
+
+Select sum (Total_Sales) as totalsalesSocks from Salesdatacsv where product = 'SOCKS'
+
+Select sum (Total_Sales) as totalsalesJacket from Salesdatacsv where product = 'JACKET'
+```
+
+
+
 
 
