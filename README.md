@@ -33,7 +33,7 @@ This involved exploring the sales data to answer questions such as:
   - Top selling product;
   - Units soldby product.
 
-### Data Analysis
+### Data Analysis and Quering
 SQL
 
 
