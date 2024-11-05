@@ -32,6 +32,7 @@ This involved exploring the sales data to answer questions such as:
   - Units soldby product.
 
 ### Data Analysis
-'''sql
+SQL
+
 
 
