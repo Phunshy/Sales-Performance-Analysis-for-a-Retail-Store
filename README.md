@@ -12,3 +12,11 @@ The primary data set used for this analysis is the "LITA Capstone Dataset.xlsx" 
 - Microsoft Excel - Data Cleaning and Analysis [Download here](https://microsoft.com)
 - SQL Server - Data Analysis [Download here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 - PowerBI - Creating reports [Download here](https://www.microsoft./power-bi/downloads)
+
+
+### Data Cleaning/Preparation
+In the initial data cleaning phase, I carried out the underlisted tasks:
+1. Data loading and Inspection
+2. Removing duplicate values
+3. Handling missing values and narrow columns
+4. Data cleaning and formatting.
