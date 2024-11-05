@@ -27,5 +27,8 @@ This involved exploring the sales data to answer questions such as:
 - calculate metrics such as average sales per product and total revenue by region
 - create other interesting reports such as:
   - Unit sold by region;
-  - Average sales per region
+  - Average sales per region;
+  - Top selling product;
+  - Units soldby product.
+
 
