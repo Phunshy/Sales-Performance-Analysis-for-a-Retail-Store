@@ -11,4 +11,4 @@ The primary data set used for this analysis is the "LITA Capstone Dataset.xlsx" 
 ### Tools
 - Microsoft Excel - Data Cleaning and Analysis [Download here](https://microsoft.com)
 - SQL Server - Data Analysis
-- PowerBI - Creating reports  
+- PowerBI - Creating reports [Download here](https://www.microsoft./power-bi/downloads)
