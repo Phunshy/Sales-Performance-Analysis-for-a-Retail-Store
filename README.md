@@ -75,3 +75,12 @@ Select sum (Total_Sales) as totalsalesJacket from Salesdatacsv where product = '
 
 
 ### Creating Reports with PowerBI
+
+
+## Inferences
+- The highest total sales was observed in the South region, having total sales of 927, 820.
+- Of all the products sold, shoes recorded the highest value of 613,380. 
+- The highest total sales was recorded in the month of February, 2024.
+- The south region also had the highest units of products sold with a value of 24,298 products.
+- Highest average sales per region (347.121) was recorded in the south as well.
+- Hats were mostly sold of all the products exhibited, with a total sales of 15,929; this is similar to the highest units sold per product.
