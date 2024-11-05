@@ -39,11 +39,17 @@ select * from [dbo].[Salesdatacsv]
 Delete from [dbo].[Salesdatacsv] where Customer_Id is Null and Region is Null
 
 ---------------TOTAL REVENUE BY PRODUCT---------------
+
 Select sum (Total_Sales) as totalsalesHat from Salesdatacsv where product = 'HAT'
+
 Select sum (Total_Sales) as totalsalesShoes from Salesdatacsv where product = 'SHOES'
+
 Select sum (Total_Sales) as totalsalesShirt from Salesdatacsv where product = 'SHIRT'
+
 Select sum (Total_Sales) as totalsalesGloves from Salesdatacsv where product = 'GLOVES'
+
 Select sum (Total_Sales) as totalsalesSocks from Salesdatacsv where product = 'SOCKS'
+
 Select sum (Total_Sales) as totalsalesJacket from Salesdatacsv where product = 'JACKET'
 
 ----------NUMBER OF SALES TRANSACTION IN EACH REGION---------
