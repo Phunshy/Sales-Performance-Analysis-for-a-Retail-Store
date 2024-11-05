@@ -21,5 +21,10 @@ In the initial data cleaning phase, I carried out the underlisted tasks:
 3. Handling missing values and narrow columns
 4. Data cleaning and formatting.
 
-### Exploratory Data Analysis
+### Exploratory Data Analysis (EDA)
+This involved exploring the sales data to answer questions such as:
+- Determine the total sales by product, region and month
+- calculate metrics such as average sales per product and total revenue by region
+- Create other interesting reports
+  - 
 
