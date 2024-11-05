@@ -3,13 +3,15 @@ The sales performance of a retail store was analyzed using available data to she
 ## Sales Analysis
 
 ### Project Overview
+```
 This project aims to provide insights into the sales performance of a retail store over the past 20 months. By exploring various aspects of the sales data, I tried to identify trends, make recommendations, and gain a deeper understanding of the store's performance. These have enabled me to make resonable decisions and inferences.
 
 ### Data Sources
+```
 The primary data set used for this analysis is the "LITA Capstone Dataset.xlsx" , which contains detailed information about each sale made by the store.
 
 ### Tools used
-
+```
 - Microsoft Excel - Data Cleaning, Analysis and Visualization [Download here](https://microsoft.com)
 - SQL (Structured Query Language) Server - Data Analysis and Quering [Download here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 - PowerBI - Creating reports [Download here](https://www.microsoft./power-bi/downloads)
