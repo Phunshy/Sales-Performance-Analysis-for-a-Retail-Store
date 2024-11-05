@@ -72,3 +72,6 @@ Select sum (Total_Sales) as totalsalesJacket from Salesdatacsv where product = '
 
 
 ![SQL result 9](https://github.com/user-attachments/assets/186bf2b6-6a3d-460a-8b4c-e2db5e08bd29)
+
+
+### Creating Reports with PowerBI
