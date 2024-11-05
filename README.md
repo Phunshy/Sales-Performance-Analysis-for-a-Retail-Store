@@ -60,3 +60,8 @@ Select sum (Total_Sales) as totalsalesJacket from Salesdatacsv where product = '
 #### Data Visualization
 
 [Adeniyi Olufunso Comprehensive Sales Data.xlsx](https://github.com/user-attachments/files/17637991/Adeniyi.Olufunso.Comprehensive.Sales.Data.xlsx)
+
+
+### Data Analysis and Quering
+
+![SQL result 1](https://github.com/user-attachments/assets/1ba9a986-caf2-46fa-b8b7-cd684feb0f5a)
