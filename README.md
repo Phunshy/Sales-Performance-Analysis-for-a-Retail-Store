@@ -25,6 +25,6 @@ In the initial data cleaning phase, I carried out the underlisted tasks:
 This involved exploring the sales data to answer questions such as:
 - Determine the total sales by product, region and month
 - calculate metrics such as average sales per product and total revenue by region
-- Create other interesting reports
+- create other interesting reports
   - 
 
