@@ -65,3 +65,8 @@ Select sum (Total_Sales) as totalsalesJacket from Salesdatacsv where product = '
 ### Data Analysis and Quering
 
 ![SQL result 1](https://github.com/user-attachments/assets/1ba9a986-caf2-46fa-b8b7-cd684feb0f5a)
+
+![SQL result 2](https://github.com/user-attachments/assets/947a6e4f-0dc0-49aa-b7b6-0a40c97c6a4f)
+
+
+![SQL result 9](https://github.com/user-attachments/assets/186bf2b6-6a3d-460a-8b4c-e2db5e08bd29)
