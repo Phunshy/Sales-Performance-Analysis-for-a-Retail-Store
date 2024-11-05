@@ -9,5 +9,6 @@ This project aims to provide insights into the sales performance of a retail sto
 The primary data set used for this analysis is the "LITA Capstone Dataset.xlsx" , which contains detailed information about each sale made by the store.
 
 ### Tools
-- Microsoft Excel
-- 
+- Microsoft Excel - Data Cleaning and Analysis
+- SQL Server - Data Analysis
+- PowerBI - Creating reports  
