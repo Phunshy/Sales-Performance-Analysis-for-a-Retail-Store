@@ -38,10 +38,12 @@ This involved exploring the sales data to answer questions such as:
 ### Data Analysis and Quering
 
 ```SQL
-  SELECT * from [dbo].[Salesdatacsv]
+  select * from [dbo].[Salesdatacsv] 
+
+Delete from [dbo].[Salesdatacsv] where Customer_Id is Null and Region is Null
+
 
 ---------------TOTAL REVENUE BY PRODUCT---------------
-
 Select sum (Total_Sales) as totalsalesHat from Salesdatacsv where product = 'HAT'
 
 Select sum (Total_Sales) as totalsalesShoes from Salesdatacsv where product = 'SHOES'
@@ -53,6 +55,63 @@ Select sum (Total_Sales) as totalsalesGloves from Salesdatacsv where product = '
 Select sum (Total_Sales) as totalsalesSocks from Salesdatacsv where product = 'SOCKS'
 
 Select sum (Total_Sales) as totalsalesJacket from Salesdatacsv where product = 'JACKET'
+
+----------NUMBER OF SALES TRANSACTION IN EACH REGION---------
+Select Region,
+count (OrderID) as regionalsales from [dbo].[Salesdatacsv]
+Group by Region
+Order by regionalsales DESC
+
+
+----------HIGHEST SELLING PRODUCT BY TOTAL SALES VALUE-------------
+Select top 1 (Product),
+sum (Total_Sales) as totalsales from [dbo].[Salesdatacsv]
+Group by Product
+
+-------------TOTAL REVENUE PER PRODUCT------------
+Select Product,
+Sum (Total_Sales) As Total_Sales from [dbo].[Salesdatacsv] 
+Group by Product
+Order by TOTAL_SALES DESC
+
+Select * from [dbo].[Salesdatacsv]
+
+-----------MONTHLY SALES TOTAL FOR THE CURRENT YEAR----------
+
+Select MONTH  (OrderDate) As MONTHS,
+Sum (Total_Sales) As MONTHLYSALES
+from [dbo].[Salesdatacsv]
+where
+YEAR (OrderDate) = YEAR (GETDATE())
+Group by MONTH (OrderDate)
+Order by MONTHS 
+
+
+--------------TOP 5 CUSTOMERS BY TOTAL PURCHASE AMOUNT-------------
+Select Top 5 (Customer_Id) As TOPCUSTOMER,
+Sum (Total_Sales) As Total_PurchasePrice from [dbo].[Salesdatacsv] 
+Group by Customer_Id 
+Order by TOPCUSTOMER DESC
+
+----------PERCENTAGE OF TOTAL SALES CONTRIBUTED BY EACH REGION----------
+Select Region,
+Sum (Total_Sales) As TOTAL_SALES,
+(Sum(Total_Sales)*100.0/(Select Sum (Total_Sales) from [dbo].[Salesdatacsv]))
+As Percentage_TOTAL_SALES
+from[dbo].[Salesdatacsv]
+Group by Region
+
+
+-----------PRODUCTS WITH NO SALES IN THE LAST QUARTER-----------
+Select * from [dbo].[Salesdatacsv]
+
+Select OrderID,
+Product
+From [dbo].[Salesdatacsv] where OrderID NOT IN (Select OrderID
+From [dbo].[Salesdatacsv]
+where OrderDate >=
+DATEADD (Quarter, -1, GETDATE ()))
+
 ```
 
 ### Results
