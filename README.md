@@ -136,8 +136,27 @@ DATEADD (Quarter, -1, GETDATE ()))
 ### Creating Reports with PowerBI
 
 
-### Sales Overview
+## Sales Overview
 - The store's total sales for 2023 and the first eight months of 2024 amount to $2,101,090. 
 - The highest total sales was recorded in the month of February, 2024. in the South region, having total sales of 927, 820. The south region also had the highest units of products sold with a value of 24,298 products.
 - Highest average sales per region (347.121) was recorded in the south as well.
+- Sales in the regions followed the order South > East > North > West.
+### Total sales by Products Breakdown:
+- Shoes: Top-selling product, accounting for 29% of total sales.
+- Shirt: Second-best seller, contributing 23% to total sales.
+- Hat: Strong sales, making up 15% of total sales.
+- Gloves: Consistent sales, representing 14% of total sales.
+- Jacket: Room for growth, accounting for 10% of total sales.
+- Socks: Opportunities for improvement, making up 9% of total sales.
+- Highest Sales: Shoes (613,380)
+- Lowest Sales: Socks (180,785)
+
+## Recommendations
+Monthly sales Recommendations:
+- Investigate factors behind significant fluctuations.
+- Analyze product sales and customer segments.
+- Optimize marketing strategies for consistent growth.
+- Monitor inventory and supply chain for potential issues.
+
+
 
