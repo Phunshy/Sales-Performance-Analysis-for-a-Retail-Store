@@ -158,5 +158,19 @@ Monthly sales Recommendations:
 - Optimize marketing strategies for consistent growth.
 - Monitor inventory and supply chain for potential issues.
 
+Regional sales Recommendations:
+- South: Maintain and expand market share; Focus on south & Maintain momentum.
+- East: Focus on growth strategies; Grow East, Build on strong performance.
+- North: Investigate opportunities to bridge the gap with East.
+- West: Identify and address sales obstacles; Improve North and West by Identifying and addressing sales obstacles.
+- Conduct market research to understand regional customer needs.
+- Adjust resource allocation and strategies based on regional performance. Adjust inventory management and marketing strategies.
+
+Product sales recommendation
+- Optimize Shoe sales: Maintain momentum, explore upselling/cross-selling.
+- Grow Shirt sales: Investigate opportunities to bridge the gap with Shoes.
+- Enhance Hat sales: Build on strong performance.
+- Improve Jacket and Socks sales: Identify and address sales obstacles.
+
 
 
