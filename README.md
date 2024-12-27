@@ -132,13 +132,13 @@ DATEADD (Quarter, -1, GETDATE ()))
 
 ![SQL result 9](https://github.com/user-attachments/assets/186bf2b6-6a3d-460a-8b4c-e2db5e08bd29)
 
-
 ### Creating Reports with PowerBI
 
+![Power BI Sales Performance](https://github.com/user-attachments/assets/8fbf56e9-4eea-4129-b68c-7247cb825b4b)
 
 ## Sales Overview
 - The store's total sales for 2023 and the first eight months of 2024 amount to $2,101,090. 
-- The highest total sales was recorded in the month of February, 2024. in the South region, having total sales of 927, 820. The south region also had the highest units of products sold with a value of 24,298 products.
+- The highest total sales was recorded in the month of February, 2024 in the South region, having total sales of 927, 820. The south region also had the highest units of products sold with a value of 24,298 products.
 - Highest average sales per region (347.121) was recorded in the south as well.
 - Sales in the regions followed the order South > East > North > West.
 ### Total sales by Products Breakdown:
